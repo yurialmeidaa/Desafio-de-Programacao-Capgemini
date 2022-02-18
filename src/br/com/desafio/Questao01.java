@@ -1,7 +1,5 @@
 package br.com.desafio;
 
-import java.util.Scanner;
-
 public class Questao01 {
 
     public static void printarEscada(int n){
@@ -27,13 +25,9 @@ public class Questao01 {
 
     public static void main(String[] args) {
 
+        int n  = 6;
 
 
-        int n;
-        Scanner scan = new Scanner(System.in);
-
-        System.out.println("Digite um número para o teste");
-        n = scan.nextInt();
 
         printarEscada(n);
 

@@ -25,7 +25,7 @@ public class Questao02 {
         return achouNumero && achouMaiuscula && achouMinuscula && achouSimbolo;
     }*/
 
-    public static void senhaMinima(String senha){
+    public static String senhaMinima(String senha){
         int tamanhoSenha = 0;
         if (senha.length() < 6) {
             tamanhoSenha = 6 - senha.length();
@@ -34,6 +34,7 @@ public class Questao02 {
             System.out.println("Senha com o tamanho minimo");
         }
 
+        return senha;
     }
 
     public static void main(String[] args) {
